@@ -18,4 +18,4 @@ $ python macaddfetch.py
 
 ```
 
-While runng this command you can fetch all the details of that mac address.
+While running this command you can fetch all the details of that mac address.
