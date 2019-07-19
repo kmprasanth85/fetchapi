@@ -1,0 +1,8 @@
+FROM ubuntu:16.04
+RUN set -xe \
+    && apt-get update -y \
+    && apt-get install python-pip -y
+RUN pip install requests
+COPY macaddfetch.py macaddfetch.py
+
+
